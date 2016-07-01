@@ -80,14 +80,14 @@ void loop() {
     digitalWrite(8, HIGH);
     delay(time);               
   } else {
-    Serial.print("Greater than 20CM");
+    Serial.print("Greater than 30CM");
     digitalWrite(11, LOW);
     digitalWrite(10, LOW);
     digitalWrite(9, LOW);
     digitalWrite(8, LOW);
     delay(time);
   }
-  //}
+
   
 
   delay(100);
